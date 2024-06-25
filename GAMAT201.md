@@ -39,10 +39,7 @@ $$
   
   $$
   a\hat{i}+b\hat{j}+c\hat{k} =
-  \begin{pmatrix}
-  a\\
-  b\\
-  c\end{pmatrix}
+  
   $$  
   
 - IntrodSpaning set, maximally independent spanning set (basis)
