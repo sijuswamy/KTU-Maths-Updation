@@ -82,8 +82,8 @@ squares problem, Orthogonal Subspaces.
 - Demonstration of matrix kernal operation in Digital image processiong and convolution (not for examination)
 >**Note:** From this module include problems to verify given transformation $LT$ is linear, range space, kernal and its dimesions for internal and End semester evaluations.
 
-$'\begin{pmatrix}
+'$\begin{pmatrix}
 a\\ 
 b \\ 
 c
-\end{pmatrix}'$
+\end{pmatrix}$'
