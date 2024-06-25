@@ -1,15 +1,15 @@
+# $\color{blue}{\text{Mathematics for Information Sciences-1}}$
 
-----
-# $\color{blue}{Mathematics for Information Sciences-1$
-
-# Module-1: Fundamentals of Linear Algebra 
->Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbf{A}_{m \times n}$
-), Subspace, Linear Independence, Span, Basis and Dimension, Fundamental theorem for linear systems.
-**Expected Cognitive Domain Level**- Understanding
+**Expected Cognitive Domain Level**- Understanding and Applications
 
 **Knowledge Category:** Procedure and Modelling
 
-**Expected Affective Domain Level:**- Appreciate the Mathematical Background of Linear systems
+**Expected Affective Domain Level:**- Appreciate the Mathematical Background of Linear systems and applications
+
+----
+# Module-1: Fundamentals of Linear Algebra 
+>Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbf{A}_{m \times n}$
+), Subspace, Linear Independence, Span, Basis and Dimension, Fundamental theorem for linear systems.
 
 ## Directions for Course Delivery
 This course is designed to build mathematical foundations for Computer Science and Engineering. 
