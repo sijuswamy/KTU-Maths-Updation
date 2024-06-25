@@ -37,5 +37,11 @@ $$
 - Introduce the concept of vector space/ linear space- using the $\mathbb{R^2}$ as an example. (include 3b1b video link)
 - Explain the connection between geometry and algebra by representing  $a\hat{i}+b\hat{j}+c\hat{k}$  $\begin{pmatrix} a\\ b\\ c
 \end{pmatrix}$
-- IntrodSpaning set, maximally independent spanning set (basis)
-
+- Extend the vector space example to $ \mathbb{R}^n$ and $\mathbb{C}^n$ over the field $\mathbb{R}$$.
+- Introduce the collection of all square matrices with real values as avector space with operations matrix addition and scalar multiplication over the field $\mathbb{R}$$
+- Give the collection of all polynomials of degree upto $n$ with real coefficients *addition* and $scalar multiplication*.
+- Introduce Spaning set, maximally independent spanning set (basis) and dimension of the vector space.
+- Introduce the concept of sub space of a vector space as subset which is closed under the operation *linear combination*.
+- Four fundamental subspaces of a vector space- Range space, Null space  and its dimensions.
+- Fundamental theorem of linear algebra (Rank nullitty theorem): For a matrix $\mathbh{A}$ of dimension $m\times n$, $\rho(A)+\text{nullity}(A)=n$.
+- 
