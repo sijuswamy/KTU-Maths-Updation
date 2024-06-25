@@ -43,5 +43,8 @@ $$
 - Introduce Spaning set, maximally independent spanning set (basis) and dimension of the vector space.
 - Introduce the concept of sub space of a vector space as subset which is closed under the operation *linear combination*.
 - Four fundamental subspaces of a vector space- Range space, Null space  and its dimensions.
-- Fundamental theorem of linear algebra (Rank nullitty theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
-  
+- Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
+- Linear transformation, matrix of transformation and application of rank-nullity theorem (simple cases)
+# Module 2: Spectral Decomposition 
+- Introduce the eigen vectors as invarient vectors under a linear transformation and corresponding eigen value as the scaling measure.
+- Mathematical model for eigen vectors as  $\mathbb{X}$ satisfy $\mathbb{AX}=\lambda \mathbb{X}$.
