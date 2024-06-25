@@ -1,8 +1,10 @@
 
 ----
+# $\color{blue}{Mathematics for Information Sciences-1$
+
 # Module-1: Fundamentals of Linear Algebra 
 >Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbf{A}_{m \times n}$
-), Subspace, Linear Independence, Span, Basis and Dimension, Coordinates and change of basis, Fundamental theorem for linear systems.
+), Subspace, Linear Independence, Span, Basis and Dimension, Fundamental theorem for linear systems.
 **Expected Cognitive Domain Level**- Understanding
 
 **Knowledge Category:** Procedure and Modelling
@@ -10,7 +12,7 @@
 **Expected Affective Domain Level:**- Appreciate the Mathematical Background of Linear systems
 
 ## Directions for Course Delivery
-
+This course is designed to build mathematical foundations for Computer Science and Engineering. 
 Introduce the concept of matrix and its applications through an excel sheet structure. It is better to create a Google form and give the students to fill out the forms with the basic details like- Name, Age, Gender, marks in Physics, Chemistry & Mathematics and expectation about the course. Introduce the concept of dataset, features (columns), samples / vectors as (rows). Various data types like name as string, age as numerical variable, gender as categorical variable etc., Presense of non numerical columns demands transformations from character/ string to numerical values. In essence the students should get the concept that matrix is both a data representation and analytics tool.
 
 - Introduce the system of linear equations using a simple linear equation in two space- eg., $$2x+y=11; 2x-y=10.$$
@@ -47,6 +49,8 @@ c
 - Introduce the concept of sub space of a vector space as subset which is closed under the operation *linear combination*.
 - Four fundamental subspaces of a vector space- Range space, Null space  and its dimensions.
 - Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
+
+>**Note:** From this module questions to verify linear independance of vectors, a subset is a subspace and simple problems to find dimensions of fundamental subspace of vector spaces etc.
 ----
 # Module 2: Spectral Decomposition
 >Eigen values and eigen vectors, Diagonalization of matrices. 
@@ -59,7 +63,7 @@ c
 - Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
 - Diagonal form of a matrix using spectral decomposition.
->**Note:** For the formative assessment, give problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple real matrices of order upto 3.
+>**Note:** For the formative assessment, use problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple real matrices of order upto 3.
 ----
 # Module- 3: Inner product space and its derivables-Introducing the concept of distance into vector space
 
@@ -73,16 +77,17 @@ squares problem, Orthogonal Subspaces.
 - Introduce the concept of orthogonal and orthonormal sets using eigen vectors of real symmetric matrices. ( select example from a RGB image)
 - Introduce the concept of least square error and finding closed form solution of simple systems using the formula $\mathbf{X}=\left(A^T A\right)^{-1}A^Tb$ by extending simple vector solutions.
 - Introduce the concept of orthogonal subspaces and its use in solution of system of equations. Mention examples like Fourier matrix and its simple uses.
-
+>**Note:** From this module questions to find norm, distance between vectors and verification of orthonormality and related questions will be asked for both internal and end semester examinations.
 # Module -4: Linear Transformations and its applications
->Linear Transformations, Kernal of Linear Transformations and its applications.
+>Linear Transformations, Kernal of Linear Transformations , Coordinates & change of basis and its applications.
 
-- Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diogonal values and demonstrate the impact of these operations using colcalc/ python (code will be provide)
-- Linear transformation, matrix of transformation and its on-to one correspondance
+- Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diogonal values and demonstrate the impact of these operations using colcalc/ python (code will be provided).
+- Linear transformation, matrix of transformation and its on-to one correspondance.
 - Range and Kernal of a linear transformation.
 - Rank-nullity theorem (simple cases) for linear transformation.
 - Composition of linear transformation and its matrix representation.
-- Geometry of linear transformation in 2 space
+- Geometry of linear transformation in 2 space.
+- Change of basis under linear transformation.
 - Demonstration of matrix kernal operation in Digital image processiong and convolution (not for examination)
 >**Note:** From this module include problems to verify given transformation $LT$ is linear, range space, kernal and its dimesions for internal and End semester evaluations.
 
