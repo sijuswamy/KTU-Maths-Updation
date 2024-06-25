@@ -54,3 +54,4 @@ $$
 - Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
 - Diagonal form of a matrix using spectral decomposition.
+>**Note:** For the formative assessment, give problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple matrices of order upto 3.
