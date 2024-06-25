@@ -1,7 +1,7 @@
 
 ----
 # Module-1: Fundamentals of Linear Algebra 
->Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbb{A}_{m \times n}$
+>Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbf{A}_{m \times n}$
 ), Subspace, Linear Independence, Span, Basis and Dimension, Coordinates and change of basis, Fundamental theorem for linear systems.
 **Expected Cognitive Domain Level**- Understanding
 
