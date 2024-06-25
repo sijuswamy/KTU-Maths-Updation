@@ -18,14 +18,14 @@ Solve these equations in both algebraic and geometric methods (use Desmos or Coc
 - Representation of the linear system as linear combination of column vectors with unknowns as coefficients- for example the above system can be represented as
 
  $$
+x\begin{pmatrix}
+2\\ 2
+\end{pmatrix}+y
 \begin{pmatrix}
-0.8944272 & 0.4472136\\
--0.4472136 & -0.8944272
-\end{pmatrix}
+1\\ -1
+\end{pmatrix}=
 \begin{pmatrix}
-10 & 0\\ 
-0 & 5
-\end{pmatrix}
+11\\ 10\end{pmatrix}
 $$
 
 - Introduce the precedure for solving a system of linear equations using Gauss elimination method.
