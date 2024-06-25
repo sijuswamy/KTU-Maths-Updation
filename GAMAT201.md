@@ -18,6 +18,6 @@ Solve these equations in both algebraic and geometric methods (use Desmos or Coc
 - Representation of the linear system as linear combination of column vectors with unknowns as coefficients- for example the above system can be represented as $$x\begin{bmatrix}
   2\\
   2
-  \end{matrix}$$
+  \end{bmatrix}$$
 - Introduce the precedure for solving a system of linear equations using Gauss elimination method.
 - Present the linear system $$2x+y=11; 4x+2y=10.$$ and try to solve 
