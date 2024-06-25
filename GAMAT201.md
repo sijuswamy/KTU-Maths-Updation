@@ -17,16 +17,16 @@ Introduce the concept of matrix and its applications through an excel sheet stru
 Solve these equations in both algebraic and geometric methods (use Desmos or Cocalc). Explore the fact that the *determinant* of the coefficents of the system determine whether the lines are parallel or not.
 - Representation of the linear system as linear combination of column vectors with unknowns as coefficients- for example the above system can be represented as
 
-  $$
-\left(\begin{array}{cc} 
+ $$
+\begin{pmatrix}
 0.8944272 & 0.4472136\\
 -0.4472136 & -0.8944272
-\end{array}\right)
-\left(\begin{array}{cc} 
+\end{pmatrix}
+\begin{pmatrix}
 10 & 0\\ 
 0 & 5
-\end{array}\right)
-$$ 
+\end{pmatrix}
+$$
 
 - Introduce the precedure for solving a system of linear equations using Gauss elimination method.
 - Present the linear system $$2x+y=11; 4x+2y=10.$$ and try to solve 
