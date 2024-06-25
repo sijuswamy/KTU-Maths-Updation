@@ -34,7 +34,7 @@ $$
 - Introduce the precedure for solving a system of linear equations using Gauss elimination method.
 - Present the linear system $$2x+y=11; 4x+2y=10.$$ and try to solve it using Gauss elimination method. Demonstrate the fact that the solution leads to a mathematical falaci. This will leads to frame a systematic method to check consistency of the system. Now introduce the concept of rank as number of linearly independent rows.
 - Present the row reduced echelon form form to find rank of a matrix.
-- Introduce the concept of vector space/ linear space- using the $ \mathbb{R^2} $ as an example. (include 3b1b video link)
+- Introduce the concept of vector space/ linear space- using the $ \mathbb{R}^2 $ as an example. (include 3b1b video link)
 - Explain the connection between geometry and algebra by representing  $a\hat{i}+b\hat{j}+c\hat{k}$  $ \begin{pmatrix} a\\ b\\ c
 \end{pmatrix} $
 - Extend the vector space example to $ \mathbb{R}^n$ and $\mathbb{C}^n$ over the field $\mathbb{R}$$.
