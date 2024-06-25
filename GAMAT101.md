@@ -2,7 +2,7 @@
 - Introduce the concept of rate of cahange with *physical examples* like velocity, acceleration etc.
 - Visualize the rate of change - first order (velocity), curvature, second order( accelaration) etc., Use Geogebra/ Cocalc etc.
 - Demonstrate derivative as a limiting function- $f(x)=x^2$ about points $0$ and $3$.
-- Demonstrate the the linear approximation through demonstaration of $f(x)=x^3+2x+5$ about $x=5$. Compare linear approximations using univariate Taylor series of $f(x)=e^x,f(x)=\sinx 
+- Demonstrate the the linear approximation through demonstaration of $f(x)=x^3+2x+5$ about $x=5$. Compare linear approximations using univariate Taylor series of $f(x)=e^x,f(x)=\sin x $.
 - Demonstrate the concave and convex functions in two/three dimensions.
 
 # Module-2
