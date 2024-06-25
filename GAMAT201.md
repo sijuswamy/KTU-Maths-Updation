@@ -36,8 +36,10 @@ $$
 - Present the row reduced echelon form form to find rank of a matrix.
 - Introduce the concept of vector space/ linear space- using the $\mathbb{R^2}$ as an example. (include 3b1b video link)
 - Explain the connection between geometry and algebra by representing
+  
   $$
-  a\hat{i}+b\hat{j}+c\hat{k} =\begin{pmatrix}
+  a\hat{i}+b\hat{j}+c\hat{k} =
+  \\begin{pmatrix}
   a\\
   b\\
   c\end{pmatrix}
