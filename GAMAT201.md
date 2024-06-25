@@ -44,7 +44,6 @@ $$
 - Introduce the concept of sub space of a vector space as subset which is closed under the operation *linear combination*.
 - Four fundamental subspaces of a vector space- Range space, Null space  and its dimensions.
 - Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
-- Linear transformation, matrix of transformation and application of rank-nullity theorem (simple cases)
 ----
 # Module 2: Spectral Decomposition
 Eigen values and eigen vectors, Diagonalization of matrices. 
@@ -57,4 +56,24 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 - Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
 - Diagonal form of a matrix using spectral decomposition.
->**Note:** For the formative assessment, give problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple matrices of order upto 3.
+>**Note:** For the formative assessment, give problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple real matrices of order upto 3.
+
+# Module- 3: Inner product space and its derivables-Introducing the concept of distance into vector space
+
+- Define the operator inner product as extension of dot product and define distance in terms of inner product.
+- Definition of norm and normed space.
+- Examples of normed space- $\mathbb{R}^n$ with Euclidian distance as norm.
+- Introduce Orthogonol projection with a simple example of free fall body.
+- Introduce the concept of orthogonal and orthonormal sets using eigen vectors of real symmetric matrices. ( select example from a RGB image)
+- Introduce the concept of least square error and finding closed form solution of simple systems using the formula $\mathbf{X}=\left(A^T A)A^{-1}b$ by extending simple vector solutions.
+- Introduce the concept of orthogonal subspaces and its use in solution of system of equations. Mention examples like Fourier matrix and its simple uses.
+
+# Module -4: Linear transformations and its applications
+
+- Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diogonal values and demonstrate the impact of these operations using colcalc/ python (code will be provide)
+- Linear transformation, matrix of transformation and its on-to one correspondance
+- Range and Kernal of a linear transformation.
+- Rank-nullity theorem (simple cases) for linear transformation.
+- Composition of linear transformation and its matrix representation.
+- Geometry of linear transformation in 2 space
+- Demonstration of matrix kernal operation in Digital image processiong and convolution (not for examination)
