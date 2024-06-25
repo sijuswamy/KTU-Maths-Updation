@@ -50,7 +50,7 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 
 - Introduce the eigen vectors as invarient vectors under a linear transformation and corresponding eigen value as the scaling measure.
 - Mathematical model for eigen vectors as  $\mathbf{X}$ satisfy $\mathbf{AX}=\lambda \mathbf{X}$. (Refer 3b1b video lessons for demonstration)
-- Explain the mathematical procedure to find eigen values and eigen vectors of a matrix of order upto order 3:
+- Explain the mathematical procedure to find eigen values and eigen vectors of a matrix of order upto 3:
 - Eigen values are the solutions of the homogeneous system- $det\left(\mathbf{A}-\lambda \mathbf{I}\right)=0$.
 - Properties of eigen values
 - Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
@@ -65,7 +65,7 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 - Examples of normed space- $\mathbb{R}^n$ with Euclidian distance as norm.
 - Introduce Orthogonol projection with a simple example of free fall body.
 - Introduce the concept of orthogonal and orthonormal sets using eigen vectors of real symmetric matrices. ( select example from a RGB image)
-- Introduce the concept of least square error and finding closed form solution of simple systems using the formula $\mathbf{X}=\left(A^T A)A^{-1}b$ by extending simple vector solutions.
+- Introduce the concept of least square error and finding closed form solution of simple systems using the formula $\mathbf{X}=\left(A^T A\right)^{-1}A^Tb$ by extending simple vector solutions.
 - Introduce the concept of orthogonal subspaces and its use in solution of system of equations. Mention examples like Fourier matrix and its simple uses.
 
 # Module -4: Linear transformations and its applications
