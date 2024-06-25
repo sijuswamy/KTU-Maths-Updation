@@ -19,13 +19,16 @@ Solve these equations in both algebraic and geometric methods (use Desmos or Coc
 
  $$
 x\begin{pmatrix}
-2\\ 2
+2\\
+2
 \end{pmatrix}+y
 \begin{pmatrix}
-1\\ -1
+1\\
+-1
 \end{pmatrix}=
 \begin{pmatrix}
-11\\ 10\end{pmatrix}
+11\\
+10\end{pmatrix}
 $$
 
 - Introduce the precedure for solving a system of linear equations using Gauss elimination method.
