@@ -37,4 +37,6 @@ $$
 - Introduce the concept of vector space/ linear space- using the $\mathbb{R^2}$ as an example. (include 3b1b video link)
 - Explain the connection between geometry and algebra by representing  $a\hat{i}+b\hat{j}+c\hat{k}$  $\begin{pmatrix} a\\ b\\ c\end{pmatrix}$
 - IntrodSpaning set, maximally independent spanning set (basis)
-$\begin{array}{c}1\\ 2\\3\end{array}$
+$\begin{array}{c}1\\
+2\\
+3\end{array}$
