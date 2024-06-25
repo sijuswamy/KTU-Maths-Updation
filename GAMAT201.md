@@ -15,7 +15,7 @@ Introduce the concept of matrix and its applications through an excel sheet stru
 
 - Introduce the system of linear equations using a simple linear equation in two space- eg., $$2x+y=11; 2x-y=10.$$
 Solve these equations in both algebraic and geometric methods (use Desmos or Cocalc). Explore the fact that the *determinant* of the coefficents of the system determine whether the lines are parallel or not.
-- Representation of the linear system as linear combination of column vectors with unknowns as coefficients- for example the above system can be represented as \vec{v} = \begin{bmatrix} X \\\ Y \end{bmatrix}
+- Representation of the linear system as linear combination of column vectors with unknowns as coefficients- for example the above system can be represented as $\vec{v} = \begin{bmatrix} X \\\ Y \end{bmatrix}$
 
 
 - Introduce the precedure for solving a system of linear equations using Gauss elimination method.
