@@ -1,8 +1,8 @@
 
 ----
 # Module-1  
-Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Fundamental theorem for linear systems, Eigen values and eigen vectors, Diagonalization of matrices.
-
+Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R^n$ $\mathbb{A_{m\times n}$, Subspace, Linear
+Independence, Span, Basis and Dimension, Coordinates and change of basis, Fundamental theorem for linear systems.
 **Expected Cognitive Domain Level**- Understanding
 
 **Knowledge Category:** Procedure and Modelling
@@ -45,7 +45,10 @@ $$
 - Four fundamental subspaces of a vector space- Range space, Null space  and its dimensions.
 - Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
 - Linear transformation, matrix of transformation and application of rank-nullity theorem (simple cases)
-# Module 2: Spectral Decomposition 
+----
+# Module 2: Spectral Decomposition
+Eigen values and eigen vectors, Diagonalization of matrices. 
+
 - Introduce the eigen vectors as invarient vectors under a linear transformation and corresponding eigen value as the scaling measure.
 - Mathematical model for eigen vectors as  $\mathbf{X}$ satisfy $\mathbf{AX}=\lambda \mathbf{X}$. (Refer 3b1b video lessons for demonstration)
 - Explain the mathematical procedure to find eigen values and eigen vectors of a matrix of order upto order 3:
