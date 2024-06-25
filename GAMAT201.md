@@ -52,7 +52,7 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 - Introduce the eigen vectors as invarient vectors under a linear transformation and corresponding eigen value as the scaling measure.
 - Mathematical model for eigen vectors as  $\mathbf{X}$ satisfy $\mathbf{AX}=\lambda \mathbf{X}$. (Refer 3b1b video lessons for demonstration)
 - Explain the mathematical procedure to find eigen values and eigen vectors of a matrix of order upto order 3:
-- Eigen values are the solutions of the homogeneous system-$|\mathbf{A}-\lambda \mathbf{I}}=0$.
+- Eigen values are the solutions of the homogeneous system-$|\mathbf{A}-\lambda \mathbf{I}|=0$.
 - Properties of eigen values
 - Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
