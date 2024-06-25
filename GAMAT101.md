@@ -15,7 +15,7 @@
 
 # Module-3
 
-- Representation of composition of functions- using  simple functions like $f(x)=x^2, g(x)=\sin(x), f\circ f=\sin(x^2)$. Demonstrate the impact of change in input variable $x$ on $f(x),g(x)$ and $f\circ g$- Represent this change in composition function using chain rule.
+- Representation of composition of functions- using  simple functions like $f(x)=x^2, g(x)=\sin(x), f\circ g=\sin(x^2)$. Demonstrate the impact of change in input variable $x$ on $f(x),g(x)$ and $f\circ g$- Represent this change in composition function using chain rule.
 - Gradient as the vector form of derivative of multi-variable functions.
 - Demonstrate that the gradient at point is normal to the tangent plane.
 - Directional derivative as impact of change in one variable on another function with reference to direction of other function.
