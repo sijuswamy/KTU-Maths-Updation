@@ -1,8 +1,8 @@
 
 ----
 # Module-1: Fundamentals of Linear Algebra 
-Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbb{A}_{m \times n}$, Subspace, Linear
-Independence, Span, Basis and Dimension, Coordinates and change of basis, Fundamental theorem for linear systems.
+>Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbb{A}_{m \times n}$
+), Subspace, Linear Independence, Span, Basis and Dimension, Coordinates and change of basis, Fundamental theorem for linear systems.
 **Expected Cognitive Domain Level**- Understanding
 
 **Knowledge Category:** Procedure and Modelling
@@ -46,7 +46,7 @@ $$
 - Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
 ----
 # Module 2: Spectral Decomposition
-Eigen values and eigen vectors, Diagonalization of matrices. 
+>Eigen values and eigen vectors, Diagonalization of matrices. 
 
 - Introduce the eigen vectors as invarient vectors under a linear transformation and corresponding eigen value as the scaling measure.
 - Mathematical model for eigen vectors as  $\mathbf{X}$ satisfy $\mathbf{AX}=\lambda \mathbf{X}$. (Refer 3b1b video lessons for demonstration)
@@ -57,8 +57,11 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
 - Diagonal form of a matrix using spectral decomposition.
 >**Note:** For the formative assessment, give problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple real matrices of order upto 3.
-
+----
 # Module- 3: Inner product space and its derivables-Introducing the concept of distance into vector space
+
+>Length and dot product in R^n – Norm, Length, distance,dot product, Angle , Inner product space, Orthogonal projection, Orthogonal and orthonormal sets , The least
+squares problem, Orthogonal Subspaces.
 
 - Define the operator inner product as extension of dot product and define distance in terms of inner product.
 - Definition of norm and normed space.
@@ -68,7 +71,8 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 - Introduce the concept of least square error and finding closed form solution of simple systems using the formula $\mathbf{X}=\left(A^T A\right)^{-1}A^Tb$ by extending simple vector solutions.
 - Introduce the concept of orthogonal subspaces and its use in solution of system of equations. Mention examples like Fourier matrix and its simple uses.
 
-# Module -4: Linear transformations and its applications
+# Module -4: Linear Transformations and its applications
+>Linear Transformations, Kernal of Linear Transformations and its applications.
 
 - Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diogonal values and demonstrate the impact of these operations using colcalc/ python (code will be provide)
 - Linear transformation, matrix of transformation and its on-to one correspondance
@@ -77,3 +81,4 @@ Eigen values and eigen vectors, Diagonalization of matrices.
 - Composition of linear transformation and its matrix representation.
 - Geometry of linear transformation in 2 space
 - Demonstration of matrix kernal operation in Digital image processiong and convolution (not for examination)
+>**Note:** From this module include problems to verify given transformation $LT$ is linear, range space, kernal and its dimesions for internal and End semester evaluations. 
