@@ -51,6 +51,6 @@ $$
 - Explain the mathematical procedure to find eigen values and eigen vectors of a matrix of order upto order 3:
 - Eigen values are the solutions of the homogeneous system-$|\mathbf{A}-\lambda \mathbf{I}}=0$.
 - Properties of eigen values
-- Eigen vectors as the solution of the system $(\mathbf{A-\lambda \mathbf{I})\mathbf{X}=0$ corresponding to each $\lambda$.
+- Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
 - Diagonal form of a matrix using spectral decomposition.
