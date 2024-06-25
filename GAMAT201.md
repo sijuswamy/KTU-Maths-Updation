@@ -39,7 +39,7 @@ $$
   
   $$
   a\hat{i}+b\hat{j}+c\hat{k} =
-  \\begin{pmatrix}
+  \begin{pmatrix}
   a\\
   b\\
   c\end{pmatrix}
