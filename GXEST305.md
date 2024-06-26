@@ -21,8 +21,8 @@
 
 - Introduce the concept of data and its representation interactively. The instructor is advised to circulate a Google form link that capture basic details of the students like Name, Gender, Age, Height, Weight and expectation about the engineering programme. The collected data will be shown to the students as the Google sheet and explain that the data is stored as matrix with columns as features and rows as samples. Various data types should be explained in this context.
 - Introduce the concept of matrix decomposition and its relevence using a practical example.
-- Introduce the concept of Singular Value Decomposition (SVD) with a suitable example and formulate the mathematical approach.
-- Define the terms in SVD and solve a simple example with three dimensional matrix.
+- Introduce the concept of Singular Value Decomposition (SVD) with a suitable example and formulate the mathematical approach. Better to explain the concept visually using an image compression example.
+- Define the terms in SVD and solve a simple example with three dimensional matrix. Explain the gometry of SVD as - Rotattion - scaling- Rotation in succession.
 - Demonstrate the SVD as an image compression model with a suitable example.
 - Introduce the curse of dimensionality reduction and present the PCA
 - Explain the significance of principal components as latent vectors with proper explanation
