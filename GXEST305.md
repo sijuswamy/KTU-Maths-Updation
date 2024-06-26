@@ -12,7 +12,7 @@ Basics of Machine Learning - types of Machine Learning systems-challenges in ML-
 - Introduce a perceptrone and a simple ANN in comparison with human neuron emphasizing the beauty of the architecture in terms of incorporating mathematical tools for iterative optimization (Explain the input to intermediate layer as linear combination of inputs, activation function and its role in capturing non-linearity, backpropagation as the error minimization using calculus tools.The blackbox nature of the neural network should be scientifically unraveled).
 - The universal Approximation Theorem should be introduced as a proof or guaranty that  any problem can be solved successfully using ANN.
 - Demonstrate the classification of MNIST dataset using a Multilayer Perceptron.
-
+>**Note:** From this module , theory questions like the types of machine learning, steps in linear and logistic regression, simple problems to cluster a tabular data  with at most two features and 10 samples and basics of ANN will be used for both internal and end semester assessments.
 ----
 
 # Module-2: Mathematical Foundations of AI and Data science:
