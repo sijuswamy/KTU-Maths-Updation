@@ -23,9 +23,9 @@
 - Introduce the concept of matrix decomposition and its relevence using a practical example.
 - Introduce the concept of Singular Value Decomposition (SVD) with a suitable example and formulate the mathematical approach. Better to explain the concept visually using an image compression example.
 - Define the terms in SVD and solve a simple example with three dimensional matrix. Explain the geometry of SVD as - Rotattion - scaling- Rotation in succession.
-- Introduce the curse of dimensionality reduction and present the PCA
-- Explain the significance of principal components as latent vectors with proper explanation
-- Provide matrices upto third order to find principal components.
+- Introduce the curse of dimensionality and present the PCA as a solution that transfer the given data into a new cordinate system.
+- Explain the significance of principal components as latent vectors with proper explanation.
+- Create principal components of matrices of order upto 3.
 >**Note:** From this module, theory questions like the SVD and PCA algorithm and problems to find $U$ matrix, $V$ matrix and $\Sigma$ (from SVD) and to find the principal compnents of matrices (from PCA) will be used for both internal and end semester assessments.
 ----
 
@@ -40,5 +40,13 @@
 - Present the concept of joint distribution of iid random variables and introduce the MLE as a method of estimating the parameters of an assumed probability distribution, given some observed data.
 - Introduce the concept of correlation with proper demonstration and give an insight on linear and non-linear association of input and response variables.
 - Present the statistical formula to find correlation coeffcient of a bivariate data.The instructor should explain the difference between correlation and covariance with suitable examples.
-- Introduce the statistical formula for linear regression using least square method
-- 
+- Introduce the statistical formula for linear regression using least square method.
+- Measures of fit of regression models- Mean square error, $R^2$ value and $F-$ test.
+- Compare the regression obtained through Machine Learning algorithm and Statistical methods. For this the instructor is advised to demonstrate the regression coefficients of both ML approach (using `LinearRegressor()` model from `scikitlearn` library  and a simple MLP) and the least square model using `statmodels` library. By this the students should realize the fact that ML models performs at par with traditional statistical models. For a smaller dataset, statistical models are advisable but for large dataset with many features, the ML approach is desirable.
+>**Note:** From this module, theory question related to MLE and problems from basic probability, Bayes' theore, correlation analysis and  linear regression with maximum 10 samples will be used for both internal and end semester assessment.
+---
+
+# Module-4: Basics of Data Science
+>Benefits of data science-use of statistics and Machine Learning in Data Science- data science process - applications of Machine Learning in Data Science- modelling process- demonstration of ML applications in data science- Big Data and Data Science. (For visualization the software tools like Tableau, PowerBI, R or Python can be used. For Machine Learning implementation, Python, MATLAB or R can be used.)
+
+
