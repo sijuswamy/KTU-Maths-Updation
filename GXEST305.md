@@ -57,4 +57,4 @@
 - Introduce the Machine Learning model design and development in data science perspective.
 - Demonstrate at least three ML applications in datascience through proper branch specific case studies.
 
->**Note:** From this module, theory questions related to data science process, modelling process, important visualization methods and applications of ML in data science will be used for both internal and end semester assessments.
+>**Note:** From this module, theory questions related to data science process, machine learning modelling process, important visualization methods and applications of ML in data science will be used for both internal and end semester assessments.
