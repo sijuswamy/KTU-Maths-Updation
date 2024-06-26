@@ -23,7 +23,6 @@
 - Introduce the concept of matrix decomposition and its relevence using a practical example.
 - Introduce the concept of Singular Value Decomposition (SVD) with a suitable example and formulate the mathematical approach. Better to explain the concept visually using an image compression example.
 - Define the terms in SVD and solve a simple example with three dimensional matrix. Explain the geometry of SVD as - Rotattion - scaling- Rotation in succession.
-- Demonstrate the SVD as an image compression model with a suitable example.
 - Introduce the curse of dimensionality reduction and present the PCA
 - Explain the significance of principal components as latent vectors with proper explanation
 - Provide matrices upto third order to find principal components.
