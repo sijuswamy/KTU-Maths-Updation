@@ -35,4 +35,11 @@
 
 - Introduce the concept of random variable with a coin toss experiment.
 - Define the expectation as a weighted average with weight as probability and variance as the variability in the distribution about the expected measures.
-- Explain the 
+- Explain the rules in probability- sum rule, conditional probability, multiplication rule and its applications.
+- Bayes theorem and its application. Instrutor should emphazise the advantage of Bayes probability in informed decision making.
+- Introduce the concept of estimation as a realistic approximation.
+- Present the concept of joint distribution of iid random variables and introduce the MLE as a method of estimating the parameters of an assumed probability distribution, given some observed data.
+- Introduce the concept of correlation with proper demonstration and give an insight on linear and non-linear association of input and response variables.
+- Present the statistical formula to find correlation coeffcient of a bivariate data.The instructor should explain the difference between correlation and covariance with suitable examples.
+- Introduce the statistical formula for linear regression using least square method
+- 
