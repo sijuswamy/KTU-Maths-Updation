@@ -43,16 +43,16 @@
 - Introduce the statistical formula for linear regression using least square method.
 - Measures of fit of regression models- Mean square error, $R^2$ value and $F-$ test.
 - Compare the regression obtained through Machine Learning algorithm and Statistical methods. For this the instructor is advised to demonstrate the regression coefficients of both ML approach (using `LinearRegression()` model from `scikitlearn` library  and a simple MLP) and the least square model using `statmodels` library. By this the students should realize the fact that ML models performs at par with traditional statistical models. For a smaller dataset, statistical models are advisable but for large dataset with many features, the ML approach is desirable.
->**Note:** From this module, theory question related to MLE and problems from basic probability, Bayes' theore, correlation analysis and  linear regression with maximum 10 samples will be used for both internal and end semester assessments.
+>**Note:** From this module, theory question related to MLE and problems from basic probability, Bayes' theorem, correlation analysis and  linear regression with maximum 10 samples will be used for both internal and end semester assessments.
 ---
 
 # Module-4: Basics of Data Science
 >Benefits of data science-use of statistics and Machine Learning in Data Science- data science process - applications of Machine Learning in Data Science- modelling process- demonstration of ML applications in data science- Big Data and Data Science. (For visualization the software tools like Tableau, PowerBI, R or Python can be used. For Machine Learning implementation, Python, MATLAB or R can be used.)
 
-- Introduce the need of scientif approach to analyse data with suitable examples like- stock market data, streamflow data, whether data etc. Through this session the students should realize the fact that what we see in the spread sheets are just representation. To get meaningful insight, one should use appropriate tools systematically.  Th instructor should use suitable insightful visulaization to achieve this objective.
-- Present the the statistical measures like mean, variance , interquartile range etc are used for better insights from the data.
+- Introduce the need of scientific approach to analyse data with suitable examples like- stock market data, streamflow data, whether data etc. Through this session the students should realize the fact that what we see in the spread sheets are just representation. To get meaningful insight, one should use appropriate tools systematically.  The instructor should use suitable insightful visulaizations to achieve this objective.
+- Present the the statistical measures like mean, variance, interquartile range etc. are used for better insights from the data.
 - Introduce Machine Learning as a tool to get better insights from the given dataset.
-- Introduce the various steps in data science process with proper illustration. Emphasize each step in this process especially data cleaning and EDA.
+- Introduce various steps in data science process with proper illustration. Emphasize each step in this process especially data cleaning and EDA.
 - Explore interconnections between statistical summaries and visualizations. For example boxplot and five point statistical summary, data distribution and density plot etc.
 - Introduce the Machine Learning model design and development in data science perspective.
 - Demonstrate at least three ML applications in datascience through proper branch specific case studies.
