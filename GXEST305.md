@@ -2,7 +2,7 @@
 
 ----
 ## Module-1 Introduction to AI and Machine Learning
-Basics of Machine Learning - types of Machine Learning systems-challenges in ML- Supervised learning model example- regression models- Classification model example- Logistic regression-unsupervised model example- K-means clustering. Artificial Neural Network- Perceptron- Universal Approximation Theorem (statement only)- Multi-Layer Perceptron- Deep Neural Network- demonstration of regression and classification problems using MLP.
+>Basics of Machine Learning - types of Machine Learning systems-challenges in ML- Supervised learning model example- regression models- Classification model example- Logistic regression-unsupervised model example- K-means clustering. Artificial Neural Network- Perceptron- Universal Approximation Theorem (statement only)- Multi-Layer Perceptron- Deep Neural Network- demonstration of regression and classification problems using MLP.
 
 - Introduce the concept of machine learning with proper example and illustrations
 - Explain different types of machine learning- Supervised, unsupervised and Reinforcement learning with proper contexts (Use branch specific examples).
@@ -28,3 +28,11 @@ Basics of Machine Learning - types of Machine Learning systems-challenges in ML-
 - Explain the significance of principal components as latent vectors with proper explanation
 - Provide matrices upto third order to find principal components.
 >**Note:** From this module, theory questions like the SVD and PCA algorithm and problems to find $U$ matrix, $V$ matrix and $\Sigma$ (from SVD) and to find the principal compnents of matrices (from PCA) will be used for both internal and end semester assessments.
+----
+
+# Module-3: Applied Probability and Statistics for AI and Data Science
+>Basics of probability-random variables and statistical measures - rules in probability- Bayes theorem and its applications- statistical estimation-Maximum Likelihood Estimator (MLE) - statistical summaries- Correlation analysis- linear correlation (direct problems only)- regression analysis- linear regression (using least square method).
+
+- Introduce the concept of random variable with a coin toss experiment.
+- Define the expectation as a weighted average with weight as probability and variance as the variability in the distribution about the expected measures.
+- Explain the 
