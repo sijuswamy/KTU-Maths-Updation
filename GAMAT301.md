@@ -17,7 +17,7 @@
 ## Module-2: Continuous distributions and applications
 
 
-## Module 3: Foundations of Random process
+## Module 3: Foundations of Random Process
 
 >**Limit Theorems and its uses**
 
