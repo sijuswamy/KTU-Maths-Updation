@@ -1,9 +1,19 @@
-# Module-1
+# Module-1 Foundations of Calculus
+- **Reference text:** [Thomas calculus] Section 2.2 (page 66-93)
+- Hour 1- Re-visting the concept of limit studied in Higher secondary classes 
+  - Main points to be highlighted along with the formal definition
+    1. The limit is a value one *expect* that function would have at the point $x=a$, based on the values of that function at *close vicinity* of $x=a$, but regardless of the value of $f(x)$ at $x=a$, if $f(a)$ is defined at all.
+    Use the link <https://en.wikipedia.org/wiki/Limit_of_a_function#/media/File:Epsilon-delta_limit.svg> for   geometrical explanation for a better understanding.
+    2. For the existence of limit at $x=a$, $f(a^+)=f(a^-)$. Use this property geometrically to check existence of limit at $x=0$ of the unit step function and similar examples from the text book.
+
+ An interesting video session is available at:<https://youtu.be/riXcZT2ICjA?si=4ZnbpClt7DjPV0pL>
+ 
+ - Practice more problems from the prescribed textbook to reinforce concept of limit 
 - Introduce the concept of rate of cahange with *physical examples* like velocity, acceleration etc.
-- Visualize the rate of change - first order (velocity), curvature, second order( accelaration) etc., Use Geogebra/ Cocalc etc.
+- Visualize the rate of change - first order (velocity), curvature, second order( accelaration) etc., Use Geogebra/ Cocalc or good video sessions.
 - Demonstrate derivative as a limiting function- $f(x)=x^2$ about points $0$ and $3$.
 - Demonstrate the the linear approximation through demonstaration of $f(x)=x^3+2x+5$ about $x=5$. Compare linear approximations using univariate Taylor series of $f(x)=e^x,f(x)=\sin x $.
-- Demonstrate the concave and convex functions in two/three dimensions.
+- Demonstrate the concave, convex and neither concave nor convex functions in two dimension.
 
 # Module-2
 
