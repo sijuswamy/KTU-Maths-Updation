@@ -6,14 +6,15 @@
 
 **Expected Affective Domain Level:**- Appreciate the Mathematical Background of Linear systems and applications
 
+## Directions for Course Delivery
+
+This course is designed to build mathematical foundations for Computer Science and Engineering. 
+Introduce the concept of matrix and its applications through an excel sheet structure. It is better to create a Google form and give the students to fill out the forms with the basic details like- Name, Age, Gender, marks in Physics, Chemistry & Mathematics and expectation about the course. Introduce the concept of dataset, features (columns), samples / vectors as (rows). Various data types like name as string, age as numerical variable, gender as categorical variable etc., Presence of non numerical columns demands transformations from character/ string to numerical values. In essence the students should get the concept that matrix is both a data representation and analytics tool.
+
 ----
 # Module-1: Fundamentals of Linear Algebra 
 >Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbf{A}_{m \times n}$
 ), Subspace, Linear Independence, Span, Basis and Dimension, Fundamental theorem for linear systems.
-
-## Directions for Course Delivery
-This course is designed to build mathematical foundations for Computer Science and Engineering. 
-Introduce the concept of matrix and its applications through an excel sheet structure. It is better to create a Google form and give the students to fill out the forms with the basic details like- Name, Age, Gender, marks in Physics, Chemistry & Mathematics and expectation about the course. Introduce the concept of dataset, features (columns), samples / vectors as (rows). Various data types like name as string, age as numerical variable, gender as categorical variable etc., Presence of non numerical columns demands transformations from character/ string to numerical values. In essence the students should get the concept that matrix is both a data representation and analytics tool.
 
 - Introduce the system of linear equations using a simple linear equation in two space- eg., $$2x+y=11; 2x-y=10.$$
 Solve these equations in both algebraic and geometric methods (use Desmos or Cocalc). Explore the fact that the *determinant* of the coefficients of the system determine whether the lines are parallel or not.
