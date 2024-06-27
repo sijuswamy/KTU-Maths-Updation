@@ -1,6 +1,6 @@
 # $\color{blue}{\text{Mathematics for Information Sciences-1}}$
 
-**Expected Cognitive Domain Level**- Understanding and Applications
+**Expected Cognitive Domain Level**- Understanding and Application
 
 **Knowledge Category:** Procedure and Modelling
 
