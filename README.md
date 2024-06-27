@@ -1,2 +1,2 @@
 # KTU-Maths-Updation
-This repository will contain the suggestions to improve Mathematics for Information science  instructional improvements
+This repository contains key points for instructional improvements in Mathematics for Computer and Information Science.
