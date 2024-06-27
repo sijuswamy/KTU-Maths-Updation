@@ -1,5 +1,12 @@
 # $\color{blue}{\text{Mathematics for Computing and Information Sciences-I}}$
 
+**Expected Cognitive Domain Level**- Understanding and Applications
+
+**Knowledge Category:** Procedure and Modelling
+
+**Expected Affective Domain Level:**- Appreciate the analytical power of Calculus tools 
+
+----
 # Module-1 Foundations of Calculus
 - **Reference text:** [Thomas calculus] Section 2.2 (page 66-93)
 - Hour 1- Re-visiting the concept of limit studied in Higher secondary classes 
@@ -53,5 +60,5 @@
 
 >**Assessments:**
  1. Assignment- Give application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
- 2. Internal tests- For internal tests 80% of questions will be direct and will be at most K3. 15% questions will be from application type but similar to discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks)
+ 2. Internal tests- For internal tests 80% of questions will be direct and will be at most K3 (from the prescribed textbooks). 15% questions will be of application type but similar to the problems discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks).
  3. ESE- For the ESE, follow the same pattern of internal tests. 
