@@ -129,10 +129,230 @@ solution5 = chebyshev_inequality(variance5, k5)
 solutions = [solution1, solution2, solution3, solution4, solution5]
 solutions
 ```
-### Topic 3: Discrete-Time Markov Processes
+### Topic 3: Strong Law of Large Numbers
+
+The Strong Law of Large Numbers (SLLN) is a fundamental theorem in probability theory that describes the behavior of the sample average of a sequence of independent and identically distributed random variables.
+
+#### Introduction
+
+The Strong Law of Large Numbers states that for a sequence of i.i.d. random variables  $\{X_n\}_{n=1}^{\infty}$, if  $E[X_1] = \mu$, then with probability 1:$$\lim_{n \to \infty}\frac{1}{n}\sum_{i=1}^{n}X_i = \mu$$.
+
+#### Key Concepts
+
+1. **Independence:** Each random variable $X_i$ in the sequence is independent of others.
+   
+2. **Identically Distributed (i.i.d.):** Each $X_i$ follows the same probability distribution.
+
+**Example-1: Rolling a Fair Die many times**
+Consider an experiment where you roll a fair six-sided die repeatedly. Let  $X_i$ denote the outcome of the $i$-th roll, which is an integer between 1 and 6. Each $X_i$ is an independent and identically distributed (i.i.d.) random variable with an expected value $E[X_i] = 3.5$ (the mean of a fair die).
+
+>**Objective of the demonstration:**
+Demonstrate how the sample mean of the die rolls converges to the expected value \( 3.5 \) as the number of rolls \( n \) increases, according to the Strong Law of Large Numbers.
+#### Python Implementation
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import ipywidgets as widgets
+from IPython.display import display
+
+# Function to update plot based on number of trials
+def update_plot(num_trials):
+    np.random.seed(42)  # For reproducibility
+    max_rolls = 1000  # Maximum number of rolls
+
+    # Simulate die rolls
+    die_rolls = np.random.randint(1, 7, size=(num_trials, max_rolls))
+
+    # Calculate cumulative means
+    cumulative_means = np.cumsum(die_rolls, axis=1) / np.arange(1, max_rolls + 1)
+
+    # Plotting
+    plt.figure(figsize=(10, 6))
+    for i in range(num_trials):
+        plt.plot(np.arange(1, max_rolls + 1), cumulative_means[i], alpha=0.1, color='blue')
+
+    plt.plot(np.arange(1, max_rolls + 1), np.mean(die_rolls, axis=0), color='red', linewidth=2, label='Average')
+    plt.axhline(y=3.5, color='green', linestyle='--', label='True Mean')
+    plt.title('Strong Law of Large Numbers: Convergence of Sample Mean')
+    plt.xlabel('Number of Rolls')
+    plt.ylabel('Sample Mean')
+    plt.legend()
+    plt.grid(True)
+    plt.ylim(1, 6)
+    plt.show()
+
+# Create slider widget
+num_trials_slider = widgets.IntSlider(value=100, min=10, max=1000, step=10, description='Number of Trials:')
+
+# Display slider and plot
+widgets.interactive(update_plot, num_trials=num_trials_slider)
+```
+
+
+>**Demonstrations:**
+><https://colab.research.google.com/drive/1nFX0TuYGczqD0ilK6ZOYgpcZEIBggr5i>
+
+#### Example: Coin Flipping Experiment
+
+Consider an experiment where a fair coin is flipped repeatedly. Let \( X_i \) denote the outcome of the \( i \)-th flip (1 for heads, 0 for tails). Each \( X_i \) is i.i.d. with \( E[X_i] = 0.5 \).
+
+#### Problems
+
+1. **Problem 1:** For a fair coin flipped \( n \) times, use the Strong Law of Large Numbers to find the probability that the proportion of heads converges to 0.5 as \( n \) grows large.
+
+2. **Problem 2:** Apply the Strong Law of Large Numbers to analyze the convergence behavior of the average score in a sequence of i.i.d. random variables.
+
+#### Solutions (Python)
+
+```python
+import numpy as np
+
+# Problem 1: Simulating coin flips and applying SLLN
+n_trials = 100000
+n_flips = 100
+coin_flips = np.random.randint(0, 2, size=(n_trials, n_flips))
+heads_proportion = np.mean(coin_flips, axis=1)
+heads_convergence = np.mean(heads_proportion)
+
+solution1 = heads_convergence
+
+# Problem 2: Analyzing convergence of average score
+n_samples = 1000
+mean_values = np.random.normal(loc=0, scale=1, size=n_samples)
+average_score_convergence = np.mean(mean_values)
+
+solution2 = average_score_convergence
+
+solutions = {
+    "Problem 1": solution1,
+    "Problem 2": solution2
+}
+solutions
+```
+### Introduction to the Central Limit Theorem
+
+The Central Limit Theorem (CLT) is a fundamental theorem in probability theory that explains why many distributions tend to be close to the normal distribution. It states that the distribution of the sum (or average) of a large number of independent, identically distributed random variables approaches a normal distribution, regardless of the original distribution of the variables.
+
+#### Statement of the Central Limit Theorem
+
+Let \( X_1, X_2, \ldots, X_n \) be a sequence of independent and identically distributed random variables with mean \( \mu \) and finite variance \( \sigma^2 \). Then, as \( n \) approaches infinity, the distribution of the standardized sum of these random variables approaches a standard normal distribution. Mathematically, this can be expressed as:
+
+\[ \frac{1}{\sqrt{n}} \left( \sum_{i=1}^n X_i - n\mu \right) \xrightarrow{d} \mathcal{N}(0, \sigma^2) \]
+
+or equivalently,
+
+\[ \frac{\sum_{i=1}^n X_i - n\mu}{\sigma \sqrt{n}} \xrightarrow{d} \mathcal{N}(0, 1) \]
+
+where \( \xrightarrow{d} \) denotes convergence in distribution.
+
+#### Practical Application in Computer Science
+
+In computer science, the Central Limit Theorem is crucial for various applications, including:
+
+1. **Algorithm Analysis:** Estimating the average case performance of algorithms.
+2. **Machine Learning:** Understanding the distribution of sample means in training datasets.
+3. **Quality Assurance:** Monitoring and controlling the quality of software processes.
+4. **Network Traffic:** Modeling and predicting network load and data packet transmission times.
+
+### Example: Analyzing Network Traffic
+
+Consider the scenario where we are analyzing the time taken for data packets to travel across a network. The travel times are influenced by various factors and may follow different distributions. However, by using the Central Limit Theorem, we can approximate the distribution of the average travel time for a large number of packets as a normal distribution.
+
+**Python Implementation with Interactive Demonstrations**
+
+We will simulate the travel times of data packets across a network using a uniform distribution and demonstrate the Central Limit Theorem by showing how the sample mean distribution approaches a normal distribution as the sample size increases.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import ipywidgets as widgets
+from IPython.display import display
+
+# Function to update plot based on sample size
+def update_plot(sample_size):
+    np.random.seed(42)  # For reproducibility
+    num_samples = 1000  # Number of samples
+
+    # Simulate travel times (uniform distribution between 1 and 10 milliseconds)
+    travel_times = np.random.uniform(1, 10, size=(num_samples, sample_size))
+
+    # Calculate sample means
+    sample_means = np.mean(travel_times, axis=1)
+
+    # Plotting
+    plt.figure(figsize=(12, 6))
+    sns.histplot(sample_means, kde=True, color='blue')
+    plt.title(f'Central Limit Theorem: Distribution of Sample Means (Sample Size = {sample_size})')
+    plt.xlabel('Sample Mean')
+    plt.ylabel('Frequency')
+    plt.grid(True)
+    plt.show()
+
+# Create slider widget for sample size
+sample_size_slider = widgets.IntSlider(value=10, min=10, max=500, step=10, description='Sample Size:')
+
+# Display slider and plot
+widgets.interactive(update_plot, sample_size=sample_size_slider)
+```
+**Examples:**
+
+1. >Let $X$ be the number of times that a fair coin, flipped 40 times, lands heads. Find the probability that $X = 20$. Use the normal approximation and then compare it to the exact solution.
+   
+
+
+# Introduction to Stochastic Processes in Computer Science
+
+## Introduction
+
+Stochastic processes are essential tools in computer science, providing a mathematical framework to model and analyze systems that involve randomness or uncertainty. Understanding stochastic processes is crucial as they underpin algorithms, simulations, and models used across various domains in computer science.
+
+## What is a Stochastic Process?
+
+A stochastic process is a collection of random variables indexed by time or space, where each variable represents the state of a system at a specific instance. It allows us to describe how a system evolves probabilistically over time or space.
+
+### Key Concepts and Definitions
+
+1. **Random Variable**:
+   - **Definition**: A variable whose values are outcomes of a random phenomenon. In stochastic processes, random variables can represent states of a system, outcomes of experiments, or measurements from sensors.
+
+2. **Stochastic Process**:
+   - **Definition**: A family of random variables indexed by a parameter (often time). For a stochastic process \( \{X_t\}_{t \in T} \), each \( X_t \) represents the state of the system at time \( t \).
+
+3. **Discrete-Time vs. Continuous-Time Processes**:
+   - **Discrete-Time**: Time progresses in discrete steps (e.g., seconds, hours).
+   - **Continuous-Time**: Time changes continuously (e.g., milliseconds, real-valued intervals).
+
+4. **Markov Property**:
+   - **Definition**: A stochastic process has the Markov property if the future state depends only on the present state and not on how the system arrived at the present state.
+   - **Intuition**: Think of predictive text algorithms that suggest the next word based solely on the current word, disregarding previous words.
+
+### Applications in Computer Science
+
+- **Algorithm Design**: Stochastic processes help design algorithms that optimize under uncertain conditions, such as in optimization problems with random variables.
+- **Machine Learning**: Many machine learning algorithms use stochastic processes to model data with inherent uncertainty or to explore probabilistic patterns.
+- **Networking and Systems**: Modeling network traffic, system reliability, and performance metrics often involves stochastic processes to predict and optimize system behavior.
+
+## Importance in Computer Science
+
+Stochastic processes provide a rigorous framework for:
+- Predicting and optimizing systems under uncertainty.
+- Simulating complex systems and analyzing their behavior.
+- Making informed decisions in algorithm design and optimization.
+
+Understanding stochastic processes equips computer science students with essential tools to tackle real-world problems involving randomness and uncertainty, making it indispensable in their professional toolkit.
+
+### Topic 4: Discrete-Time Markov Processes
 
 **Introduction**  
-Discrete-time Markov processes are stochastic models where the probability of moving to a future state depends only on the current state and not on the sequence of events that preceded it. They are widely used in modeling systems that evolve in discrete steps, such as queues, networks, and biological systems.
+Discrete-time Markov processes are stochastic models where the probability of moving to a future state depends only on the current state and not on the sequence of events that preceded it. They are widely used in modeling systems that evolve in discrete steps, such as queues, networks, and biological systems. A suitable example to introduce Markov processes and Markov chains in computer science could revolve around modeling user behavior in web navigation or predicting text sequences. Here’s an example related to predicting user behavior on a website is given below:
+> Presentation of the context
+Imagine you are tasked with analyzing how users navigate through a website. You want to predict the next page a user will visit based on their current page. This scenario can be effectively modeled using a Markov chain.
+**Background:** Suppose a website has three main pages: Home, Products, and Contact. Based on historical data, you observe the following transition probabilities between these pages:
+- From Home, 60% of users go to Products and 40% go to Contact.
+- From Products, 70% of users stay on Products, 20% go to Home, and 10% go to Contact.
+- From Contact, 50% of users go to Home and 50% go to Products.
 
 **Definition**  
 A discrete-time Markov process $\{X_n\}_{n \in \mathbb{N}}$ is characterized by:
