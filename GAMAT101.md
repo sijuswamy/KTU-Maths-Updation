@@ -19,10 +19,7 @@
 - Summarize the concept that the tangent traces the shape of the curve and normal captures the vision.
 - Demonstrate the the linear approximation (linearization) through demonstration of $f(x)=x^3+2x+5$ about $x=5$. Compare linear approximations using univariate Taylor series of $f(x)=e^x,f(x)=\sin x $.
 - Demonstrate the concave, convex and neither concave nor convex functions in two dimension.
->**Assessments:**
- 1. Assignment- Provide application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
- 2. Internal tests- For internal tests 80% of questions will be direct and will be atmost K3. 15% questions will be from application type but similar to discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks)
- 3. ESE- For the ESE, follow the same pattern of internal tests.
+
 # Module-2
 
 - Introduce the Graphs, level curves and contour of functions through examples like $f(x)=x^2+y^2,f(x)=x^2-5y^2, f(x,y)=\dfrac{xy}{x^2+y^2}$ using Geogebra or Cocalc.
@@ -50,3 +47,8 @@
 - introduce the concept of iterative minimization through Steepest descend and demonstrate the steepest descend approach in the solution of $f(x)=x^2$ at $x=0$.
 - Introduce the mathematical modelling of LPP using real world problem
 - Give more importannce to the solution space, feasible solution and the simplex procedure to find optimal solution of the objective function.
+
+>**Assessments:**
+ 1. Assignment- Provide application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
+ 2. Internal tests- For internal tests 80% of questions will be direct and will be atmost K3. 15% questions will be from application type but similar to discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks)
+ 3. ESE- For the ESE, follow the same pattern of internal tests.
