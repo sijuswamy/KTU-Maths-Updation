@@ -1,8 +1,8 @@
-# Mathematics for Computer and Information Science-3
+# $\color{blue}{\text{Mathematics for Computer and Information Science-3}}$
 
->**Course Objective:** This second year course is the foundation for advanced topics in Computer Science like Machine Learning, Data Science, Quantom Computing etc. Up on successful completion of this course, the student will be able to understand the relevance of approximate solutions in unbounded input spaces. The key concept is to formulate a  distribution from a data and use it for analysis and prediction.
+>**Course Objective:** This second year course is the foundation for advanced topics in Computer Science like Machine Learning, Data Science, Quantum Computing etc. Up on successful completion of this course, the student will be able to understand the relevance of approximate solutions in unbounded input spaces. The key concept is to formulate a distribution from a data and use it for analysis and prediction.
 
->**How to introduce the course?** Refresh the concept of random experiment, sample space and probability as a measure of uncertainity through a simple random experiment of *tossing two coins simultaneously*. Tablulate the events, frequency and probability for each event. Use this table introduce the concept of distribution in two ways- the frequency distribution and probability distribution. Convey the important idea that creating a relative measure is better than absolute measure while analysis. So Probability distribution tell us more about the random experiment.
+>**How to introduce the course?** Refresh the concept of random experiment, sample space and probability as a measure of uncertainty through a simple random experiment of *tossing two coins simultaneously*. Tabulate the events, frequency and probability for each event. Use this table introduce the concept of distribution in two ways- the frequency distribution and probability distribution. Convey the important idea that creating a relative measure is better than absolute measure while analysis. So, Probability distribution tell us more about the random experiment.
 
 ----
 ## Module-1: Descrete distributions and applications
@@ -11,7 +11,8 @@
 
 
 ## Module 3: Foundations of Random process
-Limit Theorems
+
+>**Limit Theorems and its uses**
 
 ### Topic 1: Markov’s Inequality
 
@@ -47,7 +48,7 @@ This means that the probability of $X$ exceeding $10$ is at most  $0.5$.
 
 #### Solutions (Python)
 
-All the above mentioned problems can be solved using `Python` scripts as follows. Here we pass the expected value and the bound as an ordered pair.
+All the above-mentioned problems can be solved using `Python` scripts as follows. Here we pass the expected value and the bound as an ordered pair.
 ```python
 import sympy as sp
 
@@ -142,7 +143,7 @@ solutions
 ```
 ### Topic 3: Strong Law of Large Numbers
 
-The Strong Law of Large Numbers (SLLN) is a fundamental theorem in probability theory that describes the behavior of the sample average of a sequence of independent and identically distributed random variables.
+The Strong Law of Large Numbers (SLLN) is a fundamental theorem in probability theory that describes the behaviour of the sample average of a sequence of independent and identically distributed random variables.
 
 #### Introduction
 
@@ -266,9 +267,9 @@ In computer science, the Central Limit Theorem is crucial for various applicatio
 3. **Quality Assurance:** Monitoring and controlling the quality of software processes.
 4. **Network Traffic:** Modeling and predicting network load and data packet transmission times.
 
-### Example: Analyzing Network Traffic
+### Example: Analysing Network Traffic
 
-Consider the scenario where we are analyzing the time taken for data packets to travel across a network. The travel times are influenced by various factors and may follow different distributions. However, by using the Central Limit Theorem, we can approximate the distribution of the average travel time for a large number of packets as a normal distribution.
+Consider the scenario where we are analysing the time taken for data packets to travel across a network. The travel times are influenced by various factors and may follow different distributions. However, by using the Central Limit Theorem, we can approximate the distribution of the average travel time for a large number of packets as a normal distribution.
 
 **Python Implementation with Interactive Demonstrations**
 
@@ -313,7 +314,7 @@ widgets.interactive(update_plot, sample_size=sample_size_slider)
    
 
 
-## Introduction to Stochastic Processes in Computer Science
+### Introduction to Stochastic Processes in Computer Science
 
 Stochastic processes are essential tools in computer science, providing a mathematical framework to model and analyze systems that involve randomness or uncertainty. Understanding stochastic processes is crucial as they underpin algorithms, simulations, and models used across various domains in computer science.
 
@@ -341,13 +342,13 @@ A stochastic process is a collection of random variables indexed by time or spac
 
 - **Algorithm Design**: Stochastic processes help design algorithms that optimize under uncertain conditions, such as in optimization problems with random variables.
 - **Machine Learning**: Many machine learning algorithms use stochastic processes to model data with inherent uncertainty or to explore probabilistic patterns.
-- **Networking and Systems**: Modeling network traffic, system reliability, and performance metrics often involves stochastic processes to predict and optimize system behavior.
+- **Networking and Systems**: Modelling network traffic, system reliability, and performance metrics often involves stochastic processes to predict and optimize system behaviour.
 
 **Importance in Computer Science:**
 
 Stochastic processes provide a rigorous framework for:
 - Predicting and optimizing systems under uncertainty.
-- Simulating complex systems and analyzing their behavior.
+- Simulating complex systems and analysing their behaviour.
 - Making informed decisions in algorithm design and optimization.
 
 Understanding stochastic processes equips computer science students with essential tools to tackle real-world problems involving randomness and uncertainty, making it indispensable in their professional toolkit.
@@ -356,10 +357,11 @@ Understanding stochastic processes equips computer science students with essenti
 ## Module-4: Discrete-Time Markov Processes
 
 **Introduction**  
-Discrete-time Markov processes are stochastic models where the probability of moving to a future state depends only on the current state and not on the sequence of events that preceded it. They are widely used in modeling systems that evolve in discrete steps, such as queues, networks, and biological systems. A suitable example to introduce Markov processes and Markov chains in computer science could revolve around modeling user behavior in web navigation or predicting text sequences. Here’s an example related to predicting user behavior on a website is given below:
-> Presentation of the context
-Imagine you are tasked with analyzing how users navigate through a website. You want to predict the next page a user will visit based on their current page. This scenario can be effectively modeled using a Markov chain.
-**Background:** Suppose a website has three main pages: Home, Products, and Contact. Based on historical data, you observe the following transition probabilities between these pages:
+Discrete-time Markov processes are stochastic models where the probability of moving to a future state depends only on the current state and not on the sequence of events that preceded it. They are widely used in modelling systems that evolve in discrete steps, such as queues, networks, and biological systems. A suitable example to introduce Markov processes and Markov chains in computer science could revolve around modelling user behaviour in web navigation or predicting text sequences. Here’s an example related to predicting user behaviour on a website is given below:
+> **Presentation of the context:**
+Imagine you are tasked with analysing how users navigate through a website. You want to predict the next page a user will visit based on their current page. This scenario can be effectively modelled using a Markov chain.
+
+> **Background:** Suppose a website has three main pages: Home, Products, and Contact. Based on historical data, you observe the following transition probabilities between these pages:
 - From Home, 60% of users go to Products and 40% go to Contact.
 - From Products, 70% of users stay on Products, 20% go to Home, and 10% go to Contact.
 - From Contact, 50% of users go to Home and 50% go to Products.
