@@ -445,3 +445,10 @@ solutions = {
 }
 solutions
 ```
+
+----
+
+>**Assessments:**
+ 1. Assignments- Give application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
+ 2. Internal tests- For internal tests 80% of questions will be direct and will be at most K3 (from the prescribed textbooks). 15% questions will be of application type but similar to the problems discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks).
+ 3. ESE- For the ESE, follow the same pattern of internal tests. 
