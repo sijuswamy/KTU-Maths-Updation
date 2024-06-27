@@ -8,13 +8,21 @@
 
  An interesting video session is available at:<https://youtu.be/riXcZT2ICjA?si=4ZnbpClt7DjPV0pL>
  
- - Practice more problems from the prescribed textbook to reinforce concept of limit 
-- Introduce the concept of rate of cahange with *physical examples* like velocity, acceleration etc.
+- Practice more problems from the prescribed textbook to reinforce concept of limit using limit laws and L-Hopital rule.
+- Intuitively introduce the concept of continuity geometrically as *breakless graph* ie. the expected value of $f(x)$ in the close vicinity is same as $f(a)$
+- Formally define continuity and practice more problems from the prescribed textbook
+- Introduce the concept of rate of change with *physical examples* like velocity, acceleration etc.
 - Visualize the rate of change - first order (velocity), curvature, second order( accelaration) etc., Use Geogebra/ Cocalc or good video sessions.
-- Demonstrate derivative as a limiting function- $f(x)=x^2$ about points $0$ and $3$.
-- Demonstrate the the linear approximation through demonstaration of $f(x)=x^3+2x+5$ about $x=5$. Compare linear approximations using univariate Taylor series of $f(x)=e^x,f(x)=\sin x $.
+- Re-visit the definition of derivative as a limit.
+- Demonstrate derivative as slope- Use the parabola $f(x)=x^2$ about points $0$ and $3$.
+- Practice more problems related to derivative of various types of functions, implicit differentiation, tangent, tangent line and normal to a given curve.
+- Summarize the concept that the tangent traces the shape of the curve and normal captures the vision.
+- Demonstrate the the linear approximation (linearization) through demonstration of $f(x)=x^3+2x+5$ about $x=5$. Compare linear approximations using univariate Taylor series of $f(x)=e^x,f(x)=\sin x $.
 - Demonstrate the concave, convex and neither concave nor convex functions in two dimension.
-
+>**Assessments:**
+ 1. Assignment- Provide application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
+ 2. Internal tests- For internal tests 80% of questions will be direct and will be atmost K3. 15% questions will be from application type but similar to discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks)
+ 3. ESE- For the ESE, follow the same pattern of internal tests.
 # Module-2
 
 - Introduce the Graphs, level curves and contour of functions through examples like $f(x)=x^2+y^2,f(x)=x^2-5y^2, f(x,y)=\dfrac{xy}{x^2+y^2}$ using Geogebra or Cocalc.
