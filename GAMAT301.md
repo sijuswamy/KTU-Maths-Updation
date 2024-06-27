@@ -1,6 +1,17 @@
-# Mathematical Foundations for Algorithm Design, Probabilistic Machine Learning, and Real-Time Modeling
+# Mathematics for Computer and Information Science-3
 
-## Module 1: Limit Theorems
+>**Course Objective:** This second year course is the foundation for advanced topics in Computer Science like Machine Learning, Data Science, Quantom Computing etc. Up on successful completion of this course, the student will be able to understand the relevance of approximate solutions in unbounded input spaces. The key concept is to formulate a  distribution from a data and use it for analysis and prediction.
+
+>**How to introduce the course?** Refresh the concept of random experiment, sample space and probability as a measure of uncertainity through a simple random experiment of *tossing two coins simultaneously*. Tablulate the events, frequency and probability for each event. Use this table introduce the concept of distribution in two ways- the frequency distribution and probability distribution. Convey the important idea that creating a relative measure is better than absolute measure while analysis. So Probability distribution tell us more about the random experiment.
+
+----
+## Module-1: Descrete distributions and applications
+
+## Module-2: Continuous distributions and applications
+
+
+## Module 3: Foundations of Random process
+Limit Theorems
 
 ### Topic 1: Markov’s Inequality
 
@@ -302,19 +313,17 @@ widgets.interactive(update_plot, sample_size=sample_size_slider)
    
 
 
-# Introduction to Stochastic Processes in Computer Science
-
-## Introduction
+## Introduction to Stochastic Processes in Computer Science
 
 Stochastic processes are essential tools in computer science, providing a mathematical framework to model and analyze systems that involve randomness or uncertainty. Understanding stochastic processes is crucial as they underpin algorithms, simulations, and models used across various domains in computer science.
 
-## What is a Stochastic Process?
+**What is a Stochastic Process?**
 
 A stochastic process is a collection of random variables indexed by time or space, where each variable represents the state of a system at a specific instance. It allows us to describe how a system evolves probabilistically over time or space.
 
-### Key Concepts and Definitions
+**Key Concepts and Definitions**
 
-1. **Random Variable**:
+1. **Random Variable**:(Revisit module 2)
    - **Definition**: A variable whose values are outcomes of a random phenomenon. In stochastic processes, random variables can represent states of a system, outcomes of experiments, or measurements from sensors.
 
 2. **Stochastic Process**:
@@ -334,7 +343,7 @@ A stochastic process is a collection of random variables indexed by time or spac
 - **Machine Learning**: Many machine learning algorithms use stochastic processes to model data with inherent uncertainty or to explore probabilistic patterns.
 - **Networking and Systems**: Modeling network traffic, system reliability, and performance metrics often involves stochastic processes to predict and optimize system behavior.
 
-## Importance in Computer Science
+**Importance in Computer Science:**
 
 Stochastic processes provide a rigorous framework for:
 - Predicting and optimizing systems under uncertainty.
@@ -343,7 +352,8 @@ Stochastic processes provide a rigorous framework for:
 
 Understanding stochastic processes equips computer science students with essential tools to tackle real-world problems involving randomness and uncertainty, making it indispensable in their professional toolkit.
 
-### Topic 4: Discrete-Time Markov Processes
+
+## Module-4: Discrete-Time Markov Processes
 
 **Introduction**  
 Discrete-time Markov processes are stochastic models where the probability of moving to a future state depends only on the current state and not on the sequence of events that preceded it. They are widely used in modeling systems that evolve in discrete steps, such as queues, networks, and biological systems. A suitable example to introduce Markov processes and Markov chains in computer science could revolve around modeling user behavior in web navigation or predicting text sequences. Here’s an example related to predicting user behavior on a website is given below:
