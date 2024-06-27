@@ -92,4 +92,11 @@ squares problem, Orthogonal Subspaces.
 - Demonstration of matrix kernal operation in Digital image processiong and convolution (not for examination)
 >**Note:** From this module include problems to verify given transformation $LT$ is linear, range space, kernel and its dimensions for internal and End semester evaluations.
 
+---
+
+>**Assessments:**
+ 1. Assignment- Give application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
+ 2. Internal tests- For internal tests 80% of questions will be direct and will be at most K3 (from the prescribed textbooks). 15% questions will be of application type but similar to the problems discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks).
+ 3. ESE- For the ESE, follow the same pattern of internal tests. 
+
 
