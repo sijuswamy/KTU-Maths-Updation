@@ -8,8 +8,9 @@
 
 ## Directions for Course Delivery
 
-This course is designed to build mathematical foundations for Computer Science and Engineering. 
-Introduce the concept of matrix and its applications through an excel sheet structure. It is better to create a Google form and give the students to fill out the forms with the basic details like- Name, Age, Gender, marks in Physics, Chemistry & Mathematics and expectation about the course. Introduce the concept of dataset, features (columns), samples / vectors as (rows). Various data types like name as string, age as numerical variable, gender as categorical variable etc., Presence of non numerical columns demands transformations from character/ string to numerical values. In essence the students should get the concept that matrix is both a data representation and analytics tool.
+This course is designed to build mathematical foundations for Computer Science and Engineering.
+
+- (Hour-1) Introduce the concept of matrix and its applications through an excel sheet structure. It is better to create a Google form and give the students to fill out the forms with the basic details like- Name, Age, Gender, marks in Physics, Chemistry & Mathematics and expectation about the course. Introduce the concept of dataset, features (columns), samples / vectors as (rows). Various data types like name as string, age as numerical variable, gender as categorical variable etc., Presence of non-numerical columns demands transformations from character/ string to numerical values. In essence the students should get the concept that matrix is both a data representation and analytics tool.
 
 ----
 # Module-1: Fundamentals of Linear Algebra 
@@ -51,7 +52,7 @@ c
 - Four fundamental subspaces of a vector space- Range space, Null space and its dimensions.
 - Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
 
->**Note:** From this module questions to verify linear independence of vectors, a subset is a subspace and simple problems to find dimensions of fundamental subspace of vector spaces etc.
+>**Note:** From this module questions to verify linear independence of vectors, a subset is a subspace and simple problems to find dimensions of fundamental subspace of vector spaces etc. be asked for both internal and end semester examinations.
 ----
 # Module 2: Spectral Decomposition
 >Eigen values and eigen vectors, Diagonalization of matrices. 
@@ -60,7 +61,7 @@ c
 - Mathematical model for eigen vectors as  $\mathbf{X}$ satisfy $\mathbf{AX}=\lambda \mathbf{X}$. (Refer 3b1b video lessons for demonstration)
 - Explain the mathematical procedure to find eigen values and eigen vectors of a matrix of order upto 3:
 - Eigen values are the solutions of the homogeneous system- $det\left(\mathbf{A}-\lambda \mathbf{I}\right)=0$.
-- Properties of eigen values
+- Properties of eigen values.
 - Eigen vectors as the solution of the system $\left(\mathbf{A}-\lambda \mathbf{I}\right)\mathbf{X}=0$ corresponding to each $\lambda$.
 - algebraic and geometric multiplicity of eigen values and its interpretation.
 - Diagonal form of a matrix using spectral decomposition.
@@ -68,8 +69,7 @@ c
 ----
 # Module- 3: Inner product space and its derivable-Introducing the concept of distance into vector space
 
->Length and dot product in R^n – Norm, Length, distance, dot product, Angle , Inner product space, Orthogonal projection, Orthogonal and orthonormal sets , The least
-squares problem, Orthogonal Subspaces.
+>Length and dot product in $R^n $– Norm, Length, distance, dot product, Angle, Inner product space, Orthogonal projection, Orthogonal and orthonormal sets, The least squares problem, Orthogonal Subspaces.
 
 - Define the operator inner product as extension of dot product and define distance in terms of inner product.
 - Definition of norm and normed space.
@@ -82,20 +82,19 @@ squares problem, Orthogonal Subspaces.
 # Module -4: Linear Transformations and its applications
 >Linear Transformations, Kernal of Linear Transformations , Coordinates & change of basis and its applications.
 
-- Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diogonal values and demonstrate the impact of these operations using colcalc/ python (code will be provided).
+- Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diagonal values and demonstrate the impact of these operations using colcalc/ python (code will be provided).
 - Linear transformation, matrix of transformation and its on-to one correspondence.
 - Range and Kernal of a linear transformation.
 - Rank-nullity theorem (simple cases) for linear transformation.
-- Composition of linear transformation and its matrix representation.
 - Geometry of linear transformation in 2 space.
 - Change of basis under linear transformation.
-- Demonstration of matrix kernal operation in Digital image processiong and convolution (not for examination)
->**Note:** From this module include problems to verify given transformation $LT$ is linear, range space, kernel and its dimensions for internal and End semester evaluations.
+- Demonstration of matrix kernel operation in Digital image processing and convolution (not for examination)
+>**Note:** From this module problems to verify a given transformation is linear, write its range space & kernel and dimensions etc. will be asked for internal and End semester evaluations.
 
 ---
 
 >**Assessments:**
- 1. Assignment- Give application level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
+ 1. Assignments- Give application-level questions with some `Python` based visualization or computation (preferable). In that case we can map the COs to PO5- use of modern tools.
  2. Internal tests- For internal tests 80% of questions will be direct and will be at most K3 (from the prescribed textbooks). 15% questions will be of application type but similar to the problems discussed in the class/ assignments and 5% of questions will be challenging (questions from the reference textbooks).
  3. ESE- For the ESE, follow the same pattern of internal tests. 
 
