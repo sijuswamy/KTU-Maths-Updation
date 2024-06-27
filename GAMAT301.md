@@ -1,5 +1,12 @@
 # $\color{blue}{\text{Mathematics for Computer and Information Science-3}}$
 
+**Expected Cognitive Domain Level**- Understanding and Application
+
+**Knowledge Category:** Procedure and Modelling
+
+**Expected Affective Domain Level:**- Appreciate the Mathematical Background of Probabilistic Models and applications
+
+
 >**Course Objective:** This second year course is the foundation for advanced topics in Computer Science like Machine Learning, Data Science, Quantum Computing etc. Up on successful completion of this course, the student will be able to understand the relevance of approximate solutions in unbounded input spaces. The key concept is to formulate a distribution from a data and use it for analysis and prediction.
 
 >**How to introduce the course?** Refresh the concept of random experiment, sample space and probability as a measure of uncertainty through a simple random experiment of *tossing two coins simultaneously*. Tabulate the events, frequency and probability for each event. Use this table introduce the concept of distribution in two ways- the frequency distribution and probability distribution. Convey the important idea that creating a relative measure is better than absolute measure while analysis. So, Probability distribution tell us more about the random experiment.
