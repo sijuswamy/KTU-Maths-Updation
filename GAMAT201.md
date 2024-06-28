@@ -53,7 +53,7 @@ c
 - Four fundamental subspaces of a vector space- Range space, Null space and its dimensions.
 - Fundamental theorem of linear algebra (Rank nullity theorem): For a matrix $\mathbf{A}$ of dimension $m\times n$, $$\rho(A)+\text{nullity}(A)=n$$
 
->**Note:** From this module questions to verify linear independence of vectors, a subset is a subspace and simple problems to find dimensions of fundamental subspace of vector spaces etc. be asked for both internal and end semester examinations.
+>**Note:** From this module questions to verify linear independence of vectors, a subset is a subspace and simple problems to find dimensions of fundamental subspace of vector spaces etc. will be asked for both internal and end semester examinations.
 ----
 # Module 2: Spectral Decomposition
 >Eigen values and eigen vectors, Diagonalization of matrices. 
