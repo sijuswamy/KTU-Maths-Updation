@@ -68,7 +68,7 @@ c
 - Diagonal form of a matrix using spectral decomposition.
 >**Note:** For the formative assessment, use problems to find eigen values, eigen vectors, AM & GM and diagonal form of simple real matrices of order upto 3.
 ----
-# Module- 3: Inner product space and its derivable-Introducing the concept of distance into vector space
+# Module- 3: Inner Product Space and its derivable-Introducing the concept of distance into vector space
 
 >Length and dot product in $R^n $– Norm, Length, distance, dot product, Angle, Inner product space, Orthogonal projection, Orthogonal and orthonormal sets, The least squares problem, Orthogonal Subspaces.
 
@@ -80,7 +80,7 @@ c
 - Introduce the concept of least square error and finding closed form solution of simple systems using the formula $\mathbf{X}=\left(A^T A\right)^{-1}A^Tb$ by extending simple vector solutions.
 - Introduce the concept of orthogonal subspaces and its use in solution of system of equations. Mention examples like Fourier matrix and its simple uses.
 >**Note:** From this module questions to find norm, distance between vectors and verification of orthonormality and related questions will be asked for both internal and end semester examinations.
-# Module -4: Linear Transformations and its applications
+# Module -4: Linear Transformations and Its Applications
 >Linear Transformations, Kernal of Linear Transformations , Coordinates & change of basis and its applications.
 
 - Introduce the concept of linear transformation using the matrix multiplication of a vector with $2\times 2$ unit matrix, then change the diagonal values and demonstrate the impact of these operations using colcalc/ python (code will be provided).
