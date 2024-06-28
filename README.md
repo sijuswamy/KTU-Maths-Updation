@@ -10,3 +10,7 @@ The Course Faculty may consider the key points highlighted in respective course 
 ## 3. Semester 3 Course: Mathematics for Computer and Information Sciences-3
    <https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/GAMAT301.md>
 ## 4. Semester 4 Course: Mathematics for Computer and Information Sciences-4
+
+# Course Delevery Instructions for GXEST305- $\color{blue}{\text{Introduction to AI and DS}}$
+
+   <https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/GXEST305.md>
