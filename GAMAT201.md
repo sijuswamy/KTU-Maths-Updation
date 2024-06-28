@@ -17,7 +17,7 @@ This course is designed to build mathematical foundations for Computer Science a
 >Systems of linear equations, Solution by Gauss elimination, Row echelon form and rank of a matrix, Vector Space ($\mathbb{R}^n$ , $\mathbf{A}_{m \times n}$
 ), Subspace, Linear Independence, Span, Basis and Dimension, Fundamental theorem for linear systems.
 
-- Introduce the system of linear equations using a simple linear equation in two space- eg., $$2x+y=11; 2x-y=10.$$
+- Introduce the system of linear equations using a set of simple linear equations in two space- eg., $$2x+y=11; 2x-y=10.$$
 Solve these equations in both algebraic and geometric methods (use Desmos or Cocalc). Explore the fact that the *determinant* of the coefficients of the system determine whether the lines are parallel or not.
 - Representation of the linear system as linear combination of column vectors with unknowns as coefficients- for example the above system can be represented as
 
@@ -36,6 +36,7 @@ x\begin{pmatrix}
 $$
 
 - Introduce the procedure for solving a system of linear equations using Gauss elimination method.
+- Practice more problems from the prescribed text book.
 - Present the linear system $$2x+y=11; 4x+2y=10.$$ and try to solve it using Gauss elimination method. Demonstrate the fact that the solution leads to a mathematical Fallaci. This will lead to frame a systematic method to check consistency of the system (Fundamental theorem of linear system). Now introduce the concept of rank as number of linearly independent rows.
 - Present the row reduced echelon form to find rank of a matrix.
 - Introduce the concept of vector space/ linear space- using the $\mathbb{R}^2$ as an example. (include 3b1b video link)
