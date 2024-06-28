@@ -1,4 +1,4 @@
-# KTU-CSE-Maths-Updation
+# KTU-CSE-Instructional-Updates
 This repository contains key points for instructional improvements in Mathematics for Computer and Information Science.
 
 The Course Faculty may consider the key points highlighted in respective course instructions while preparing the lesson plan.
