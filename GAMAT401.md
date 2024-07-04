@@ -12,7 +12,7 @@ Graph Theory is a fundamental area of study in computer science engineering, pro
 
 **Module 2:** Euler graphs, Operations on Graphs, Hamiltonian paths and circuits, Travelling Salesman Problem, ,connectivity ,edge connectivity, vertex connectivity, directed graphs ,types of directed graphs.
 
-**Module 2:** Trees — properties, pendant vertex, Distance and centres in a tree - Rooted and binary trees, counting trees, spanning trees, Prim's algorithm and Kruskal's algorithm, Dijkstra's shortest path algorithm, Floyd-Warshall shortest path algorithm.
+**Module 3:** Trees — properties, pendant vertex, Distance and centres in a tree - Rooted and binary trees, counting trees, spanning trees, Prim's algorithm and Kruskal's algorithm, Dijkstra's shortest path algorithm, Floyd-Warshall shortest path algorithm.
 
 **Module 4:** Matrix representation of graphs- Adjacency matrix, Incidence Matrix, Circuit Matrix, Path Matrix. Coloring- Chromatic number, Chromatic polynomial,. Greedy colouring algorithm- Four colour theorem, Five colour theorem.
 
@@ -68,7 +68,7 @@ A sample session explaining the new approach in lesson planing is shown [here](h
 
 ## Course Delivery Guidelines
 
-### Module 1: Elements of Graph Theory (9 hours)
+### Module 1: Elements of Graph Theory (8 hours)
 
 - Introduce the fundamentals of graph theory in a application view point (refer [sample lesson](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/GAMAT401_Sample_Lesson.md)).
 - Introduce the Havel-Hakimi theorem with a practical application in verifying if a given social network's degree sequence is graphical to ensure feasible network construction.
@@ -116,7 +116,7 @@ A sample session explaining the new approach in lesson planing is shown [here](h
 6. Shortest Path Analysis: Shortest path between specified nodes.(need to be use additional tools for this task)
 7. Reachability Results: Nodes reachable from selected starting points.
 
-## Module 3: Trees
+## Module 3: Trees (10 hours)
 
 - Introduce a tree with the example of a family tree, where each person is a node and family relationships are edges, ensuring a unique path between any two individuals.
 - Introduce pendant vertices as endpoints of transmission lines, distance as the number of line segments between two substations, and centers as the optimal substations minimizing the maximum distance to all other substations in a power grid.
@@ -138,3 +138,37 @@ Design and optimize a smart city network to ensure efficient connectivity betwee
 3. Shortest Path Calculation: Utilize Dijkstra's and Floyd-Warshall algorithms to find the shortest communication paths between nodes.
 4. Network Analysis: Assess connectivity, identify key network nodes (pendant vertices and centers), and ensure optimal performance.
 5. Recommendations based on the analysis for improving network connectivity, minimizing costs, and enhancing performance. This will include suggestions for network upgrades or restructuring to ensure robust and efficient communication pathways.
+
+## Module 4: Matrix Representation of Graphs
+
+- Introduce the concept of adjacency matrices using the example of a small network of three computers connected in a triangle to visualize and analyze their connections.
+- Introduce the concept of incidence matrices using the example of a small social network of four friends, where each connection represents a friendship, to visualize and analyze their relationships.
+- Introduce the concept of circuit matrices using the example of a road network with *three distinct routes connecting intersections* to visualize and analyze their connections.
+- Introduce the concept of path matrices using the example of a small city road network with *four intersections* to visualize and analyze the possible routes between intersections.
+- Introduce the concept of the chromatic number using the example of a map with four neighboring countries to visualize and determine the minimum number of colors needed to ensure no two adjacent countries share the same color.
+- Introduce the concept of the chromatic polynomial using the previous example of a map.
+- Introduce the concept of the greedy coloring algorithm using the example of a map using a simple, step-by-step approach.
+- Introduce the Five Color Theorem and discuss its application in optimizing aircraft scheduling to ensure no two flights with conflicting schedules are assigned the same gate or runway (application can be given as an assignment).
+- Introduce the Four Color Theorem and discuss its use in optimizing resource allocation by minimizing the number of resources needed to ensure no conflicts (application can be given as an assignment).
+
+**Micro Project:** Advanced Resource Allocation Optimization in a Large Institution with Graph Theory Techniques (Comprehensive Project)
+>*Objective:*Utilize advanced graph theory concepts to design, analyze, and optimize resource allocation in a large institution with a focus on efficient management of classrooms, laboratories, and scheduling.
+>*Problem Statement:* Design and optimize the resource allocation and scheduling system for an institution with multiple courses, including a substantial number of classrooms and laboratories. Represent the resources and scheduling constraints as a graph. Apply graph theory techniques to ensure efficient allocation and minimize conflicts.
+>*Expected Deliverables:*
+
+1. Graph Construction and Visualization:
+
+ - Construct and visualize the network graph representing courses, classrooms, and laboratories.
+ - Generate and analyze adjacency and incidence matrices to understand connections between resources.
+ - Resource Allocation and Coloring:
+
+2. Apply greedy coloring algorithms and compute the chromatic number to allocate resources such as classrooms and labs efficiently.
+   
+ - Analyze and compare greedy and exact coloring methods.
+ - Pathfinding and Optimization: Use Dijkstra’s and Floyd-Warshall algorithms to find shortest paths and optimize routes between resources.
+   
+4. Advanced Analysis:
+
+ - Compute circuit matrices and path matrices to analyze the network's connectivity and identify potential scheduling conflicts.
+ - Apply advanced graph algorithms to solve scheduling and resource allocation problems.
+5. Optimization Report: Provide a comprehensive report detailing findings, optimization strategies, and recommendations based on graph theory analysis.
