@@ -138,6 +138,33 @@ plt.title("Pendant Vertex")
 plt.savefig("pendant_vertex.png")
 plt.show()
 ```
+
+### Problem Solving
+**Formative Assessment (Pen and Paper)**:
+- Draw a simple graph with 5 vertices and 6 edges.
+- Identify and classify the graph as finite or infinite, simple or non-simple.
+
+**Computational Approach (Python)**:
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# Define vertices and edges
+vertices = [1, 2, 3, 4, 5]
+edges = [(1, 2), (2, 3), (3, 4), (4, 5), (5, 1), (1, 3)]
+
+# Create a graph
+G = nx.Graph()
+G.add_nodes_from(vertices)
+G.add_edges_from(edges)
+
+# Draw the graph
+plt.figure(figsize=(8, 6))
+nx.draw(G, with_labels=True, node_color='lightblue', edge_color='gray')
+plt.title("Simple Graph with 5 Vertices and 6 Edges")
+plt.savefig("simple_graph.png")
+plt.show()
+```
 ----
 
 ### Practice Problems and Sample Tasks
