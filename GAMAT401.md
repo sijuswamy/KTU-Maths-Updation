@@ -63,6 +63,7 @@ Students implement the concepts in Python, developing their computational and al
    - Reflection on the learning outcomes and preparation for upcoming topics.
 
 
+## Example Session: Graph Definition and Terminologies
 
 
 
