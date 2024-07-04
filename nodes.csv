@@ -1,0 +1,17 @@
+node,x,y
+CentralDataCenter,0,0
+PowerPlant,1,3
+PoliceStation,2,1
+FireStation,3,2
+Hospital,4,0
+School,5,2
+Library,6,1
+CityHall,7,2
+Airport,8,1
+University,9,3
+ResearchLab,10,4
+TrainStation,11,5
+BusDepot,12,4
+ConventionCenter,13,2
+ShoppingMall,14,1
+Park,15,0
