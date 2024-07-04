@@ -153,7 +153,7 @@ Design and optimize a smart city network to ensure efficient connectivity betwee
 
 **Micro Project:** Advanced Resource Allocation Optimization in a Large Institution with Graph Theory Techniques (Comprehensive Project)
 
->*Objective:* Utilize advanced graph theory concepts to design, analyze, and optimize resource allocation in a large institution with a focus on efficient management of classrooms, laboratories, and scheduling using the dataset [resourses.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/resources.csv), [courses.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/courses.csv), [constraints.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/constraints.csv).
+>*Objective:* Utilize advanced graph theory concepts to design, analyze, and optimize resource allocation in a large institution with a focus on efficient management of classrooms, laboratories, and scheduling using the datasets [resourses.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/resources.csv), [courses.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/courses.csv), [constraints.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/constraints.csv).
 >
 >*Problem Statement:* Design and optimize the resource allocation and scheduling system for an institution with multiple courses, including a substantial number of classrooms and laboratories. Represent the resources and scheduling constraints as a graph. Apply graph theory techniques to ensure efficient allocation and minimize conflicts.
 
