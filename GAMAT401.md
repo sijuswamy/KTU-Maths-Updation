@@ -64,6 +64,7 @@ Students implement the concepts in Python, developing their computational and al
 
 
 ## Example Session: Graph Definition and Terminologies
+A sample session explaining the new approach in lesson planing is shown [here](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/GAMAT401_Sample_Lesson.md)
 
 
 
