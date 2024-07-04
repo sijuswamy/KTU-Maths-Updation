@@ -131,7 +131,7 @@ A sample session explaining the new approach in lesson planing is shown [here](h
 
 **Micro Project** Network Optimization for a Smart City (Data driven)
 >*Problem Statement:*
-Design and optimize a smart city network to ensure efficient connectivity between critical infrastructure elements such as data centers, power plants, emergency services, and public facilities given in the dataset. The goal is to minimize infrastructure costs, improve response times, and ensure robust communication pathways.
+Design and optimize a smart city network to ensure efficient connectivity between critical infrastructure elements such as data centers, power plants, emergency services, and public facilities given in the dataset [nodes.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/nodes.csv), [edges.csv](https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/edges.csv. The goal is to minimize infrastructure costs, improve response times, and ensure robust communication pathways.
 >*Expected deliverables:*
 1. Network Design: Create a graph model representing a smart city network using data from CSV files.
 2. Minimum Spanning Tree: Apply Prim’s and Kruskal’s algorithms to identify the least-cost network connections while ensuring all essential nodes are connected.
