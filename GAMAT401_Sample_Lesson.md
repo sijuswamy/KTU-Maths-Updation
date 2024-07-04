@@ -206,7 +206,8 @@ plt.show()
 ```
 
 ## DIY project- `Analyzing a Social Network of University Students Using Graph Theory`
-<>
+
+<https://github.com/sijuswamy/KTU-Maths-Updation/blob/main/DIY-Sample.md>
 ## Conclusion
 In this lesson, we've covered the basic definitions and terminologies in graph theory, including simple graphs, finite and infinite graphs, and null graphs. We also explored the concepts of incidence, degree, isolated vertex, and pendant vertex. Understanding these fundamental concepts is crucial as they form the building blocks for more advanced topics in graph theory, such as graph traversal algorithms, connectivity, and graph coloring. These concepts are widely used in various applications, including computer networks, social network analysis, and optimization problems in future courses.
 
