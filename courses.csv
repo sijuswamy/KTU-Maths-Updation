@@ -1,0 +1,26 @@
+course_id,course_name,laboratory_required
+C1,Introduction to Programming,No
+C2,Data Structures,Yes
+C3,Algorithms,No
+C4,Operating Systems,Yes
+C5,Database Systems,Yes
+C6,Computer Networks,No
+C7,Software Engineering,Yes
+C8,Computer Architecture,No
+C9,Web Development,No
+C10,Machine Learning,Yes
+C11,Artificial Intelligence,Yes
+C12,Human-Computer Interaction,No
+C13,Information Security,Yes
+C14,Cloud Computing,No
+C15,Embedded Systems,Yes
+C16,Digital Logic Design,Yes
+C17,Computer Vision,Yes
+C18,Data Mining,No
+C19,Computer Graphics,Yes
+C20,Networks Security,No
+C21,Theory of Computation,No
+C22,Programming Languages,No
+C23,Advanced Algorithms,Yes
+C24,Parallel Computing,Yes
+C25,Big Data Analytics,Yes
