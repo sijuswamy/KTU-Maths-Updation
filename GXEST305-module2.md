@@ -96,16 +96,29 @@ For an `m x n` matrix `A`:
 
 #### Solved Example (Simple 2x2 Matrix)
 
-Let's find the SVD for $ A = \begin{pmatrix} 3 & 0 \\ 4 & 5 \end{pmatrix} $.
+Let's find the SVD for 
+
+```math
+A = \begin{pmatrix} 3 & 0 \\ 4 & 5 \end{pmatrix} 
+```
 
 **Step 1: Find V by working with $A^T A$.**
-$ A^T A = \begin{pmatrix} 3 & 4 \\ 0 & 5 \end{pmatrix} \begin{pmatrix} 3 & 0 \\ 4 & 5 \end{pmatrix} = \begin{pmatrix} 25 & 20 \\ 20 & 25 \end{pmatrix} $
+
+```math
+ A^T A = \begin{pmatrix} 3 & 4 \\ 0 & 5 \end{pmatrix} \begin{pmatrix} 3 & 0 \\ 4 & 5 \end{pmatrix} = \begin{pmatrix} 25 & 20 \\ 20 & 25 \end{pmatrix}
+```
 Now, find the eigenvalues ($\lambda$) and eigenvectors ($v$) of $A^T A$.
 The characteristic equation is $(25-\lambda)^2 - 20^2 = 0 \implies (25-\lambda-20)(25-\lambda+20) = 0 \implies (5-\lambda)(45-\lambda) = 0$.
 So, the eigenvalues are $\lambda_1 = 45, \lambda_2 = 5$.
 
-The corresponding (normalized) eigenvectors are $ v_1 = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ 1 \end{pmatrix} $ and $ v_2 = \frac{1}{\sqrt{2}} \begin{pmatrix} -1 \\ 1 \end{pmatrix} $.
-These form the columns of V: $ V = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix} $.
+The corresponding (normalized) eigenvectors are 
+```math
+$ v_1 = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ 1 \end{pmatrix} $ and $ v_2 = \frac{1}{\sqrt{2}} \begin{pmatrix} -1 \\ 1 \end{pmatrix}
+```
+These form the columns of V: 
+```math
+V = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}.
+```
 
 **Step 2: Find Σ.**
 The singular values are the square roots of the eigenvalues:
